@@ -1,0 +1,25 @@
+{
+  "name": "lgm",
+  "version": "0.0.0",
+  "description": "Epic Games launcher, a ES Module.",
+  "main": "index.js",
+  "keywords": [
+    "launcher",
+    "epicgames",
+    "javascript"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "mocha --require babel-register --recursive \"index.mjs\""
+  },
+  "author": "DeltaUser",
+  "license": "MIT",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.10.5",
+    "babel-core": "^6.26.3",
+    "mocha": "^8.0.1"
+  }
+}

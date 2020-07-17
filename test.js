@@ -1,0 +1,1 @@
+import launcher from './index.mjs';
