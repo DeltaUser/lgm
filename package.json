@@ -10,12 +10,14 @@
   ],
   "type": "module",
   "scripts": {
-    "test": "mocha --require babel-register --recursive \"index.mjs\""
+    "test": "mocha --require babel-register --recursive",
+    "start": "mocha --require babel-register --recursive \"./test/test.mjs\""
   },
   "author": "DeltaUser",
   "license": "MIT",
   "dependencies": {
-    "fetch": "^1.1.0"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "@babel/register": "^7.10.5",
