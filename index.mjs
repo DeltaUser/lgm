@@ -1,4 +1,5 @@
-/**@forbidDocs
+/**
+ * @forbidDocs
  * @author DeltaUser
  * @name Index
  * @type class
