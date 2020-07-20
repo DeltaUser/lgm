@@ -1,3 +1,11 @@
+/**
+ * @allowDocs
+ * @author DeltaUser
+ * @name HTTPS
+ * @type class
+ * @description Class that sends requests.
+ */
+
 import request from 'request-promise';
 
 export default class HTTPS {

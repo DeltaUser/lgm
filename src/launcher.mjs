@@ -1,3 +1,11 @@
+/**
+ * @allowDocs
+ * @author DeltaUser
+ * @name Launcher
+ * @type class
+ * @description Launcher that puts all the files together. 
+ */
+
 import User from './User.mjs';
 
 export default class launcher {

@@ -1,3 +1,10 @@
+/**
+ * @allowDocs
+ * @author DeltaUser
+ * @type class
+ * @description User's account.
+ */
+
 import HTTPS from './HTTPS.mjs';
 
 export default class User {
